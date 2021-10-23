@@ -23,10 +23,10 @@
   </properties>
   
   <distributionManagement>
-    <snapshotRepository>
+    <repository>
       <id>deploymentRepo</id>
       <url>http://localhost:8081/repository/helloworld/</url>
-    </snapshotRepository>
+    </repository>
   </distributionManagement>
 
   <build>
