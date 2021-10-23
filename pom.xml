@@ -21,6 +21,13 @@
 
     <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
   </properties>
+  
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://localhost:8081/repository/helloworld/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <build>
     <plugins>
