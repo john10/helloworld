@@ -6,7 +6,7 @@
 
   <groupId>com.sandeep.demo</groupId>
   <artifactId>my_second_project</artifactId>
-  <version>1.4</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>Hello World</name>
@@ -24,7 +24,7 @@
   <distributionManagement>
     <repository>
       <id>deploymentRepo</id>
-      <url>http://localhost:8081/repository/com.sandeep.demo/</url>
+      <url>http://localhost:8081/repository/com.pardeep.demo/</url>
     </repository>
   </distributionManagement>
 
